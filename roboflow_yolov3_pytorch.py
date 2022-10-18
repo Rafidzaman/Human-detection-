@@ -287,6 +287,6 @@ drive.mount('/content/gdrive')
 # Commented out IPython magic to ensure Python compatibility.
 # create a copy of the weights file with a datetime 
 # and move that file to your own Drive
-# %cp ./weights/last.pt ./weights/last_copy.pt
-# %mv ./weights/last_copy.pt /content/gdrive/My\ Drive
+ %cp ./weights/last.pt ./weights/last_copy.pt
+ %mv ./weights/last_copy.pt /content/gdrive/My\ Drive
 
